@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/carbonMonoxide"
+        android:id="@+id/carbonMonoxideOverlay"
+        />
+<!--    <item
+        android:title="@string/nitricacid"
+        android:id="@+id/nitricAcid"
+        />
+    <item
+        android:title="@string/dustscore"
+        android:id="@+id/dustscore"
+        />-->
+    <item
+        android:title="@string/ozone"
+        android:id="@+id/ozone"
+        />
+    <item
+        android:title="@string/aerosol"
+        android:id="@+id/aerosol"
+        />
+    <item
+        android:title="@string/relativehumidity"
+        android:id="@+id/humidity"
+        />
+    <item
+        android:title="@string/none"
+        android:id="@+id/noOverlay"
+        />
+
+    <!--TODO: Make relevant items bold-->
+
+
+</menu>

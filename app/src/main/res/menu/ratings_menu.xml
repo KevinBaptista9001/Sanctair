@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="@string/compositeaqi"
+        android:id="@+id/compositeaqi"
+        />
+    <item
+        android:title="@string/fineparticlepollution"
+        android:id="@+id/pm25"
+        />
+    <item
+        android:title="@string/coarseparticlepollution"
+        android:id="@+id/pm10"
+        />
+    <item
+        android:title="@string/ozone"
+        android:id="@+id/ozoneRating"
+        />
+<!--    <item
+        android:title="@string/no2"
+        android:id="@+id/no2rating"
+        />-->
+    <item
+        android:title="@string/so2"
+        android:id="@+id/so2rating"
+        />
+    <item
+        android:title="@string/carbonMonoxide"
+        android:id="@+id/corating"
+        />
+    <item
+        android:title="@string/none"
+        android:id="@+id/noRating"
+        />
+</menu>

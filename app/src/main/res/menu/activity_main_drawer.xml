@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="@string/airPollution">
+            <menu>
+                <item
+                    android:id="@+id/nav_details"
+                    android:icon="@drawable/ic_menu_details"
+                    android:title="@string/details" />
+                <item
+                    android:id="@+id/nav_causes"
+                    android:icon="@drawable/ic_menu_causes"
+                    android:title="@string/causes" />
+                <item
+                    android:id="@+id/nav_solutions"
+                    android:icon="@drawable/ic_menu_solutions"
+                    android:title="@string/solutions" />
+            </menu>
+        </item>
+
+
+    </group>
+
+    <item android:title="@string/effectOnPeople">
+        <menu>
+            <item
+                android:id="@+id/sensitiveGroups"
+                android:icon="@drawable/ic_menu_allergies"
+                android:title="@string/sensitiveGroups"/>
+            <item
+                android:id="@+id/nav_shortTerm"
+                android:icon="@drawable/ic_menu_shortterm"
+                android:title="@string/shortTerm" />
+            <item
+                android:id="@+id/nav_longTerm"
+                android:icon="@drawable/ic_menu_longterm"
+                android:title="@string/longTerm" />
+
+        </menu>
+    </item>
+
+</menu>

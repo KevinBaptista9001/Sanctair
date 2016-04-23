@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/overlaySelect"
+        android:title="@string/overlays"
+        android:icon="@drawable/ic_menu_overlay"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/ratingSelect"
+        android:title="@string/airqualityrating"
+        android:icon="@drawable/ic_menu_ratings"
+        app:showAsAction="ifRoom"/>
+
+</menu>

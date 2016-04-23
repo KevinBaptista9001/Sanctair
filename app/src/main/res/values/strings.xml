@@ -1,0 +1,196 @@
+<resources>
+    <string name="app_name">Sanctair</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="details">Details</string>
+    <string name="causes">Causes</string>
+    <string name="solutions">Solutions</string>
+    <string name="airPollution">Air Pollution</string>
+    <string name="effectOnPeople">Effect on people</string>
+    <string name="shortTerm">Short Term</string>
+    <string name="longTerm">Long Term</string>
+    <string name="sensitiveGroups">Sensitive Groups</string>
+    <string name="welcome">Welcome</string>
+    <string name="thanks">Thank you for installing Sanctair, to provide information more relevant to your needs please fill out the next questions. All information is stored solely on your device.</string>
+    <string name="next">Next</string>
+    <string name="title_activity_maps_test">Map</string>
+    <string name="allergiesquestion">Check any which you more sensitive to.</string>
+    <string name="dust">Dust</string>
+    <string name="pollen">Pollen</string>
+    <string name="smoke">Smoke</string>
+    <string name="formaldehyde">Formaldehyde</string>
+    <string name="mold">Mold</string>
+    <string name="dander">Dander</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="carbonMonoxide">Carbon Monoxide</string>
+    <string name="overlays">Overlays</string>
+    <string name="fires">Fires and Thermal Anomalies</string>
+    <string name="nitricacid">Nitric Acid</string>
+    <string name="sulfuricacid">Sulfuric Acid</string>
+    <string name="dustscore">Dust Score</string>
+    <string name="so2">Sulfur Dioxide</string>
+    <string name="ozone">Ozone</string>
+    <string name="aerosol">Aerosol Optical Depth</string>
+    <string name="illnessesQuestion">Check any diseases you suffer from.</string>
+    <string name="asthma">Asthma</string>
+    <string name="copd">Chronic obstructive pulmonary disease</string>
+    <string name="pneumonitis">Hypersensitivity Pneumonitis</string>
+    <string name="cardiovasculardisease">Cardiovascular disease</string>
+    <string name="prev">Prev</string>
+    <string name="finished">Finished!</string>
+    <string name="endtext">The app will now highlight data relevant to your conditions. The following screen will display a map with near real-time satellite data overlays. If there is no data available, try a previous date by tapping it on the top of the screen. Relevant overlays/ratings will be marked with an asterisk(*).</string>
+    <string name="continueToApp">Continue</string>
+    <string name="opacity">Opacity</string>
+    <string name="airqualityrating">Air Quality Rating</string>
+    <string name="compositeaqi">Composite AQI</string>
+    <string name="fineparticlepollution">Fine Particle Pollution</string>
+    <string name="coarseparticlepollution">Coarse Particle Pollution</string>
+    <string name="no2">Nitrogen Dioxide</string>
+    <string name="aqi">Air Quality Index Rating</string>
+    <string name="none">None</string>
+    <string name="ratings">Ratings</string>
+    <string name="overlay">Overlay</string>
+    <string name="overlayscale">overlayScale</string>
+    <string name="minCO">40 – 40.4ppb</string>
+    <string name="maxCO"><![CDATA[>= 140ppb]]></string>
+    <string name="coAIRS">The Carbon Monoxide Overlay is provided by the NASA Jet Propulsion
+        Laboratory\'s Atmospheric Infrared Sounder (AIRS). The AIRS Carbon Monoxide (CO) Total
+        Column (Day/Night) layer indicates the amount of Carbon Monoxide in the total vertical
+        column profile of the atmosphere (from Earth’s surface to top-of-atmosphere) and is measured
+        in parts per billion by volume (ppbv).  Carbon Monoxide pollution is caused
+        mainly by internal combustion engine exhaust, especially in older vehicles. Infants,
+        the elderly, people with chronic heart disease, anemia, or breathing problems are more
+        susceptible to CO. Carbon Monoxide in high enough concentration, which can be caused by
+        using dry ice or an old car in a poorly ventilated area, is also deadly to anyone.</string>
+    <string name="anemia">Anemia</string>
+    <string name="compositeAQIinfo">The Composite Air Quality Index (AQI) is provided by the United
+        States Environmental Protection Agency (EPA). It is the highest of the other ratings for
+        each station. AQI values at or below 100 are generally thought of as satisfactory.</string>
+    <string name="noOvelaySelected">No overlay selected</string>
+    <string name="noOverlayContent">Choose an overlay to see information about it here.</string>
+    <string name="noRatingTitle">No rating selected</string>
+    <string name="noRatingContent">Select a rating to display more information about it here</string>
+    <string name="compositeGood">0–50: Good</string>
+    <string name="compositeModerate">51–100: Moderate</string>
+    <string name="compositeUFSG">101–150: Unhealthy for sensitive groups</string>
+    <string name="compositeUnhealthy">151–200: Unhealthy</string>
+    <string name="compositeVU">201–250: Very Unhealthy</string>
+    <string name="compositeHazardous">251–300: Hazardous</string>
+    <string name="allHazardous">301–500 Everyone should avoid all outdoor exertion</string>
+    <string name="ozoneInfo">The Microwave Limb Sounder (MLS) Ozone (O3) Mixing Ratio layer at 46hPa
+        (hectopascals) indicates ozone levels at the vertical atmospheric pressure level of 46hPa,
+        and is measured in parts per billion by volume (ppbv). Ozone is a gas that can be good or
+        bad depending on where it is found. Good ozone is present naturally in the Earth’s upper
+        atmosphere—approximately 6 to 30 miles (~9.7 to 48.2 km) above the Earth’s surface. This
+        natural ozone shields us from the sun\’s harmful ultraviolet rays. Bad Ozone forms near the
+        ground when pollutants react with sunlight. While MLS does not measure ozone down to the
+        Earth\'s surface, MLS measurements can be used to improve the vertical resolution of other
+        sensors on the Aura satellite, allowing mid- and lower-tropospheric ozone to be
+        distinguished from the large amounts of ozone in the stratosphere and upper troposphere.</string>
+    <string name="ozoneMin">0.500ppmv</string>
+    <string name="ozoneMax">4.500ppmv</string>
+    <string name="aerosolInfo">The Moderate Resolution Imaging Spectroradiometer (MODIS) Aerosol
+        Optical Depth (or Aerosol Optical Thickness) layer indicates the level at which particles
+        in the air (aerosols) prevent light from traveling through the atmosphere. Aerosols absorb
+        and scatter incoming sunlight, which reduces visibility and increases the optical depth. An
+        optical depth of less than 0.1 indicates a clear sky with maximum visibility, and a value of
+        1 indicates the presence of aerosols so dense that people would have difficulty seeing the Sun.
+        The algorithm is not applied over sunglint ocean regions or bright (desert) land regions</string>
+    <string name="aerosolMax">0.70</string>
+    <string name="aerosolMin">-0.05</string>
+    <string name="relativehumidity">Relative Humidity</string>
+    <string name="minHumidity">1–2%</string>
+    <string name="maxHumidity">100%</string>
+    <string name="humidityInfo">The Atmospheric Infrared Sounder (AIRS) Relative Humidity layer
+        indicates the percent relative humidity at varying pressure levels measured in hectopascals
+        (hPa). The vertical profile information produced by the AIRS instrument augments radiosonde
+        data. 400hPa, the profile being displayed, is approximately 7km or 23,000 feet</string>
+    <string name="ozoneMarkerInfo">Sensitive groups include: People with lung disease, such as asthma, children, older adults, and people who are active outdoors</string>
+    <string name="o3Good">0–50: Good, no action needed</string>
+    <string name="o3Moderate">51–100: Moderate, unusually sensitive people should <b>consider reducing</b> heavy/prolonged outdoor exertion</string>
+    <string name="o3UFSG">101–150: Unhealthy for sensitive groups, those in sensitive groups should <b>reduce</b> heavy/prolonged outdoor exertion</string>
+    <string name="o3Unhealthy">151–200: Unhealthy, those in sensitive groups should <b>avoid</b> heavy/prolonged outdoor exertion. All others should <b>limit heavy/prolonged</b> outdoor exertion</string>
+    <string name="o3VU">201–300: Very Unhealthy, those in sensitive groups should <b>avoid all</b> outdoor exertion. All others should <b>limit</b> outdoor exertion.</string>
+    <string name="o3Detail">An AQI of 100 for ozone corresponds to an ozone level of 0.075 parts per million (averaged over 8 hours).</string>
+    <string name="pm25MarkerInfo">Sensitive groups include: People with heart or lung disease, older adults and children.</string>
+    <string name="pm25Detail">An AQI of 100 corresponds to 35 micrograms per cubic meter (averaged over 24 hours).</string>
+    <string name="pm10Detail">An AQI of 100 corresponds to 150 micrograms per cubic meter (averaged over 24 hours).</string>
+    <string name="coMarkerInfo">Sensitive groups include: People with heart disease, such as angina.</string>
+    <string name="coUFSG">100–150: Unhealthy for sensitive groups: Those in sensitive groups should reduce heavy exertion and avoid sources of carbon monoxide, such as heavy traffic.</string>
+    <string name="coUnhealthy">151–200: Unhealthy, those in sensitive groups should reduce moderate exertion and avoid sources of carbon monoxide, such as heavy traffic.</string>
+    <string name="coVU">201–300: Very Unhealthy, those in sensitive groups should avoid exertion and sources of carbon monoxide, such as heavy traffic.</string>
+    <string name="coDetail">An AQI of 100 for carbon monoxide corresponds to a level of 9 parts per million (averaged over 8 hours).</string>
+    <string name="coModerate">51–100: Moderate, no action needed</string>
+    <string name="so2MarkerInfo">Sensitive groups include: Children, asthmatics, and people with heart or lung disease</string>
+    <string name="so2Unhealthy">151–200: Unhealthy, those in sensitive groups should reduce exertion outdoors.</string>
+    <string name="so2Detail">An AQI of 100 for sulfur dioxide corresponds to a level of 75 parts per billion (averaged over one hour).</string>
+    <string name="so2UFSG">101–150: Unhealthy for sensitive groups, People with asthma should consider reducing exertion outdoors.</string>
+    <string name="so2VU">201–300: Very Unhealthy, Those in sensitive groups should avoid outdoor exertion. All others should reduce exertion outdoors.</string>
+    <string name="commoncauses">Common Causes</string>
+    <string name="coCauses">Created when carbon in fuel doesn\'t completely burn\nVehicle exhaust is the largest source\nOlder vehicles or vehicles with modified exhaust can be especially harmful\nIndustrial processes\nWildfires\nFormation facilitated in cold weather</string>
+    <string name="specificToArea">Specific to your area</string>
+    <string name="noDataCauses">No data (yet), tap the pencil to add data! Does your city have an abnormally large amount of cars? Are there constant wildfires? Does a specific industrial building seem to pollute too much?</string>
+    <string name="ozoneCauses">Good Ozone is naturally occurring\nBad ozone forms when pollutants react with sunlight\nWarmer weather facilitates bad ozone production</string>
+    <string name="aerosolCauses">Pollution from factories\nSmoke\nDust from dust storms\nSea Salts\nVolcanic Ash\nSmog</string>
+    <string name="humidityCauses">Relative humidity is the percentage of water vapor air can hold at a given temperature \n Areas near warmer bodies of water are generally more humid \n Wind may play an important role as well depending on where it is coming from</string>
+    <string name="compositeAQIcauses">The composite AQI is the highest of all other ratings</string>
+    <string name="fineParticleCauses">Power plants\nIndustrial processes\nVehicle tailpipes\nWoodstoves\nWildfires</string>
+    <string name="coarseParticleCauses">Crushing and grinding operations\nRoad dust\nSome agricultural operations</string>
+    <string name="so2Causes">Sulfur containing fuels such as coal or oil\nPower plants\nRefineries\nIndustrial boilers</string>
+    <string name="commonsolutions">Common Solutions</string>
+    <string name="noDataSolutions">No data (yet), tap the pencil to add data! Are there any particularly polluted areas to avoid? Any politicians everyone should write to?</string>
+    <string name="ozoneSolutions">Turn off lights you\'re not using\nDrive less using public transportation, carpooling, biking or walking\nKeep your engine tuned and don\'t let it idle\nAvoid spilling fuel when refueling\nUse proper tire pressure\nUse low-VOC paint and cleaning products and seal them properly\nSensitive groups should prioritize mornings and evenings for outdoor activities</string>
+    <string name="particlePollutionSolutions">Drive less using public transportation, carpooling, biking or walking\n(U.S.) Use Energy Star certified appliances\nSet thermostats higher in the summer and lower in the winter\nDon\'t burn leaves, garbage, plastic, or rubber\nKeep engines tuned</string>
+    <!--Say that five times fast-->
+    <string name="so2Solutions">Convince your city to use cleaner energy sources such as solar, nuclear or wind\nStay away from industrial areas\nIndustrial buildings should be receiving regular and proper inspection</string>
+    <string name="coSolutions">Drive less using public transportation, carpooling, biking or walking\nMake sure engines are tuned\nAvoid using older engines\nDo not modify car exhaust\nMake sure area is well ventilated when using dry ice\nNever run an engine in a closed area\nPrevent wildfires</string>
+    <string name="compositeAQIsolution">Reduce individual ratings to reduce the composite AQI rating</string>
+    <string name="humiditySolutions">Humidity, being a natural property of our air, can only be controlled indoors with (de)humidifiers or air conditioning, however hotter temperatures allow more water vapor to be mixed with air, therefore, climate change also increases humidity</string>
+    <string name="aerosolSolutions">Reducing other pollutants will reduce the Aerosol Optical Depth\nPreventing wildfires also helps\nStay away from areas with smog</string>
+    <string name="coSensitiveGroup">"People with cardiovascular disease, such as coronary artery disease, are most at risk. They may experience chest pain and other cardiovascular symptoms if they are exposed to carbon monoxide, particularly while exercising. People with marginal or compromised cardiovascular and respiratory systems (for example, individuals with congestive heart failure, cerebrovascular disease, anemia, or chronic obstructive lung disease), and possibly young infants and fetuses, also may be at greater risk from carbon monoxide pollution. "</string>
+    <string name="ozoneSensitiveGroups">Ozone can aggravate lung diseases, such as asthma, chronic bronchitis, and emphysema, leading to increased medication use, doctor and emergency room visits, and hospital admissions.\nPeople active outdoors, especially children and teenagers who\'s lungs are still developing, are at increased risk, even more so in warmer weather.\nOlder adults are also more likely to have pre-existing lung conditions.\nWhen ozone levels are unhealthy, more people with asthma have symptoms that require a doctor’s attention or the use of medication. Ozone makes people more sensitive to allergens—the most common triggers for asthma attacks. Also, asthmatics may be more severely affected by reduced lung function and airway inflammation. People with asthma should ask their doctor for an asthma action plan and follow it carefully when ozone levels are unhealthy.</string>
+    <string name="humiditySensitiveGroups">Sensitivity to (lack of) humidity seems to be very rare, though high humidity may make people with heat intolerance more uncomfortable than usual. Some people with hypersensitivity pneumonitis may also experience aveoli inflammation</string>
+    <string name="particlePollutionSensitiveGroups">Sensitive groups for particle pollution include people with heart or lung disease (including heart failure and coronary artery disease, or asthma and chronic obstructive pulmonary), older adults (who may have undiagnosed heart or lung disease), and children. Exposure to particle pollution may cause people with heart disease to experience chest pain, palpitations, shortness of breath, and fatigue. Particle pollution has also been associated with cardiac arrhythmias and heart attacks. When exposed to high levels of particle pollution, people with existing lung disease may not be able to breathe as deeply or vigorously as they normally would. They may experience symptoms such as coughing and shortness of breath. Healthy people also may experience these effects, although they are unlikely to experience more serious effects. Particle pollution also can increase susceptibility to respiratory infections and can aggravate existing respiratory diseases, such as asthma and chronic bronchitis.</string>
+    <string name="aerosolSensitiveGroups">Sensitive groups for aerosols include people with heart or lung disease (including heart failure and coronary artery disease, or asthma and chronic obstructive pulmonary), older adults (who may have undiagnosed heart or lung disease), and children. Exposure to particle pollution may cause people with heart disease to experience chest pain, palpitations, shortness of breath, and fatigue. Particle pollution has also been associated with cardiac arrhythmias and heart attacks. When exposed to high levels of particle pollution, people with existing lung disease may not be able to breathe as deeply or vigorously as they normally would. They may experience symptoms such as coughing and shortness of breath. Healthy people also may experience these effects, although they are unlikely to experience more serious effects. Particle pollution also can increase susceptibility to respiratory infections and can aggravate existing respiratory diseases, such as asthma and chronic bronchitis.</string>
+    <string name="so2Sensitivities">People with asthma who are physically active outdoors are most likely to experience the health effects of sulfur dioxide. The main effect, even with very brief exposure (minutes), is a narrowing of the airways (called bronchoconstriction). This may be accompanied by wheezing, chest tightness, and shortness of breath, which may require use of medication that opens the airways. Symptoms increase as sulfur dioxide levels or breathing rate increases. When exposure to sulfur dioxide ceases, lung function typically returns to normal within an hour, even without medication.</string>
+    <string name="compositeAQIsensitive">Select one of the other ratings to see which group of people are particularly sensitive to a given pollutant</string>
+    <string name="commoneffects">Common effects</string>
+    <string name="noDataShortTerm">No data (yet), tap the pencil to add data! Do you sense an unusual shortness of breath, wheezing or other symptom while visiting this area?</string>
+    <string name="noDataLongTerm">No data (yet), tap the pencil to add data! Have you contracted any diseases after a year living in your area?</string>
+    <string name="ozoneLongTerm">Repeated short-term ozone damage to children’s developing lungs may lead to reduced lung function in adulthood. In adults, ozone exposure may accelerate the natural decline in lung function that occurs with age. \n While studies on long term exposure have been inconclusive, most symptoms from short term exposure persist.</string>
+    <string name="coLongTerm">Because carbon monoxide poisoning can kill body cells, especially in the brain, there is a risk of long-term neurological problems in people who have had severe poisoning.</string>
+    <string name="particlesAerosolEffects">Particles smaller than 10 micrometers in diameter can cause or aggravate a number of health problems and have been linked with illnesses and deaths from heart or lung disease. These effects have been associated with both short-term exposures (usually over 24 hours, but possibly as short as one hour) and long-term exposures (years).</string>
+    <string name="humidityLongTerm">Extremes of humidity don\'t have long term effects beyond the short term symptoms persisting, some may even become tolerant.</string>
+    <string name="compositeLongTerm">Prolonged exposure to unclean air may cause heart or lung diseases, see other ratings for more detail.</string>
+    <string name="so2LongTerm">May cause respiratory symptoms and illness, and aggravate asthma. People with asthma are the most susceptible to sulfur dioxide. However, people with other chronic lung diseases or cardiovascular disease, as well as children and older adults, may also be susceptible to these effects.</string>
+    <string name="coShortTerm">"Carbon monoxide enters the bloodstream through the lungs and binds to hemoglobin, the substance in blood that carries oxygen to cells. It reduces the amount of oxygen reaching the body’s organs and tissues.\nIn healthy individuals, exposure to higher levels of carbon monoxide can affect mental alertness and vision. "</string>
+    <string name="ozoneShortTerm">Irritation the respiratory system, causing coughing, throat soreness, airway irritation, chest tightness, or chest pain when taking a deep breath.\nReduction of lung function, making it more difficult to breathe as deeply and vigorously as you normally would, especially when exercising. Breathing may start to feel uncomfortable, and you may notice that you are taking more rapid and shallow breaths than normal.\nInflammation and damage to the cells that line the lungs. Within a few days, the damaged cells are replaced and the old cells are shed—much like the way your skin peels after sunburn. Studies suggest that if this type of inflammation happens repeatedly, lung tissue may become permanently scarred and lung function may be permanently reduced.\nLungs becoming more susceptible to infection. Ozone reduces the lung’s defenses by damaging the cells that move particles and bacteria out of the airways and by reducing the number and effectiveness of white blood cells in the lungs.</string>
+    <string name="humidityShortTerm">Very low humidity can create discomfort, respiratory problems, cause nose bleeds, and aggravate allergies in some individuals.\nLow humidity causes dry nasal passages which are more susceptible to Rhinovirus cold viruses.</string>
+    <string name="compositeShortTerm">See other ratings to see what symptoms one may feel when exposed to a certain pollutant</string>
+    <string name="so2ShortTerm">At very high levels, sulfur dioxide may cause wheezing, chest tightness, and shortness of breath even in healthy people who do not have asthma.</string>
+    <string name="displayComposite">Markers: Composite AQI Rating</string>
+    <string name="displayAerosol">Overlay: Aerosol Optical Depth</string>
+    <string name="displayCOOverlay">Overlay: Carbon Monoxide</string>
+    <string name="displayOzoneOverlay">Overlay: Ozone</string>
+    <string name="displayHumidity">Overlay: Relative Humidity</string>
+    <string name="displayNoOverlay">No Overlay</string>
+    <string name="displayPM25">Markers: Fine Particle Pollution</string>
+    <string name="displayPM10">Markers: Coarse Particle Pollution</string>
+    <string name="displayOzoneMarkers">Markers: Ozone</string>
+    <string name="displaySO2">Markers: Sulfur Dioxide</string>
+    <string name="displayCOMarkers">Markers: Carbon Monoxide</string>
+    <string name="displayNoMarkers">No Ratings Markers</string>
+    <string name="markersDateNote">Note: Markers are only available for present day</string>
+    <string name="boldCarbonMonoxide">*Carbon Monoxide*</string>
+    <string name="boldHumidity">*Relative Humidity*</string>
+    <string name="boldAerosol">*Aerosol Optical Depth*</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aboutInfo">This app was created for the 2016 NASA Space Apps Challenge, overlay data is provided by the NASA Global Imagery Browse Services (GIBS). Ratings overlay is provided by aqicn.org, individual ratings are provided by each nation\'s environmental protection agency. Health data was mostly provided by the U.S. EPA from the following link:\nhttps://www.airnow.gov/index.cfm?action=aqibasics.aqi</string>
+    <string name="specialThanks">Special thanks to Kevin Hussey and Charles Thomson from the NASA JPL and Jeff Schmaltz from Earthdata support for their initial help.</string>
+
+</resources>
