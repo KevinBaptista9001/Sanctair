@@ -90,7 +90,8 @@ public class SettingsPage extends ListFragment {
             startActivity(intent);
         }
         else if (position == 2){
-
+            Intent intent = new Intent(getActivity(),AboutPage.class);
+            startActivity(intent);
         }
     }
 

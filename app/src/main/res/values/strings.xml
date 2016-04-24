@@ -192,5 +192,10 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="aboutInfo">This app was created for the 2016 NASA Space Apps Challenge, overlay data is provided by the NASA Global Imagery Browse Services (GIBS). Ratings overlay is provided by aqicn.org, individual ratings are provided by each nation\'s environmental protection agency. Health data was mostly provided by the U.S. EPA from the following link:\nhttps://www.airnow.gov/index.cfm?action=aqibasics.aqi</string>
     <string name="specialThanks">Special thanks to Kevin Hussey and Charles Thomson from the NASA JPL and Jeff Schmaltz from Earthdata support for their initial help.</string>
+    <string name="boldPM25">*Fine Particle Pollution*</string>
+    <string name="boldPM10">*Coarse Particle Pollution*</string>
+    <string name="boldOzone">*Ozone*</string>
+    <string name="boldSO2">*Sulfur Dioxide*</string>
+    <string name="airqualityinformation">Air quality information</string>
 
 </resources>

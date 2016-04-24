@@ -1,28 +1,33 @@
 package com.baptista.kevin.sanctair;
 
 import android.app.DatePickerDialog;
+import android.app.DatePickerDialog.OnDateSetListener;
 import android.app.Dialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.NavigationView;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.ListFragment;
-import android.util.Log;
-import android.view.ContextMenu;
-import android.view.View;
-import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
+import android.view.ContextMenu;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.DatePicker;
+import android.widget.RelativeLayout;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
@@ -31,12 +36,6 @@ import com.google.android.gms.maps.model.TileOverlay;
 import com.google.android.gms.maps.model.TileOverlayOptions;
 import com.google.android.gms.maps.model.TileProvider;
 import com.google.android.gms.maps.model.UrlTileProvider;
-
-import android.widget.DatePicker;
-import android.widget.RelativeLayout;
-import android.widget.TextView;
-import android.app.DatePickerDialog.OnDateSetListener;
-import android.widget.Toast;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -241,24 +240,24 @@ public class MainActivity extends AppCompatActivity
         else if (v.getId() == R.id.ratingSelect){
             getMenuInflater().inflate(R.menu.ratings_menu, menu);
             menu.setHeaderTitle(R.string.aqi);
-            MenuItem co = menu.getItem(R.id.corating);
-            MenuItem pm25 = menu.getItem(R.id.pm25);
-            MenuItem pm10 = menu.getItem(R.id.pm10);
-            MenuItem ozone = menu.getItem(R.id.ozoneRating);
-            MenuItem so2 = menu.getItem(R.id.so2rating);
+            MenuItem corating = menu.findItem(R.id.corating);
+            MenuItem pm25 = menu.findItem(R.id.pm25);
+            MenuItem pm10 = menu.findItem(R.id.pm10);
+            MenuItem ozone = menu.findItem(R.id.ozoneRating);
+            MenuItem so2 = menu.findItem(R.id.so2rating);
 
             if (anemia || copd || cardio){
-                co.setTitle(R.string.boldCarbonMonoxide);
+                corating.setTitle(R.string.boldCarbonMonoxide);
             }
             if (copd || asthma || cardio){
-                pm25.setTitle("*Fine Particle Pollution*");
-                pm10.setTitle("*Coarse Particle Pollution*");
+                pm25.setTitle(R.string.boldPM25);
+                pm10.setTitle(R.string.boldPM10);
             }
             if (asthma || copd || pneumonitis){
-                ozone.setTitle("*Ozone*");
+                ozone.setTitle(R.string.boldOzone);
             }
             if (asthma){
-                so2.setTitle("*Sulfur Dioxide*");
+                so2.setTitle(R.string.boldSO2);
             }
 
         }
